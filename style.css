@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "chicle";
+    src: url(Fonts/CHICLE/Chicle.ttf);
+}
+
+@font-face {
+    font-family: "oswald";
+    src: url(Fonts/OSWALD/OFL.txt);
+}
+
+@font-face {
+    font-family: "dyna";
+    src: url(Fonts/DynaPuff/DYNA.ttf);
+}
+
+@keyframes Anima {
+    From {
+    width: 0px; 
+    } 
+    To {
+    width: 610px; 
+    } 
+    
+} 
+
+main{
+    width: 1366px;
+    height: 2430px;
+    background-color: #318b42;
+    border: 1px solid black;
+}
+header{
+    width: 1366px;
+    height: 200px;
+    background-color: #347840;
+    text-align: center;
+    font-family: "chicle";
+}
+
+
+nav{
+    width: 1366px;
+    height: 60px;
+    background-color: rgb(3, 99, 25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; color: rgb(0, 0, 0); font-family: "Noto Sans JP", sans-serif;
+    padding: 15px;
+    transition: 3s;
+    font-family: "dyna";
+}
+nav a:hover{
+    background-color: rgb(13, 104, 34);
+    transform: scale(1.2);
+}
+
+section{
+    width: 1366px;
+    height: 2050px;
+    background-color: #318b42;
+
+}
+
+.Principal{
+    width: 1250px;
+    height: 1950px;
+    background-color: #318b42;
+    float: left;
+    font-family: "dyna";
+    display: block;
+}
+
+.Caja{
+    width: 600px;
+    height: 390px;
+    border-radius: 50px 50px;
+    text-align: center;
+    font-family: "dyna";
+    border: solid 1px #1a4922;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.CajaB{
+    width: 600px;
+    height: 390px;
+    border-radius: 50px 50px;
+    text-align: center;
+    font-family: "dyna";
+    border: solid 1px #1a4922;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+#I1{
+    width: 610px;
+    height: 400px;
+    animation-name: Anima;
+    animation-duration: 5s;
+}
+
+#I2{
+    width: 610px;
+    height: 400px;
+    animation-name: Anima;
+    animation-duration: 5s;
+}
+
+#I3{
+    width: 610px;
+    height: 400px;
+    animation-name: Anima;
+    animation-duration: 5s;
+}
+
+#I4{
+    width: 610px;
+    height: 400px;
+    animation-name: Anima;
+    animation-duration: 5s;
+}
+
+#I5{
+    width: 610px;
+    height: 400px;
+    animation-name: Anima;
+    animation-duration: 5s;
+}
+/* ESTA A PROPOSITO EL ESTIRAMIENTO DE LA IMAGEN PROFE, NO ME MATE, SE VE BIEN TIERNA LA TIERRA ASI TODA GORDITA TODA PANZONA */
+
+
+footer{
+    width: 1366px;
+    height: 100px;
+    background-color: #347840;
+}
